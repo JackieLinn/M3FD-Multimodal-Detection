@@ -36,7 +36,7 @@ Then go to the PyToch website to install the PyToch version that is compatible w
 You need to store the dataset in the following format:
 
 ```
-dataset/                  # 实际数据集的地址，不用改名为dataset，放在任意位置都行
+dataset/                  # 数据集的地址
 │   ├── visible/          # 存储 可见光图像 + 标签
 │   │   ├── train/        # 训练
 │   │   │    ├── image1.jpg 
