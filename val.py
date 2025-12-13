@@ -21,7 +21,7 @@ def parse_args():
     # Validation parameters
     parser.add_argument('--split', type=str, default='val', help='Dataset split to use (train/val/test)')
     parser.add_argument('--imgsz', type=int, default=640, help='Input image size')
-    parser.add_argument('--batch', type=int, default=4, help='Batch size')
+    parser.add_argument('--batch', type=int, default=32, help='Batch size')
 
     # Device and output
     parser.add_argument('--device', type=str, default='0', help='CUDA device ID')
