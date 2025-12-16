@@ -1,0 +1,9 @@
+path: D:/A_Programming_Projects/Python_Projects/M3FD-Multimodal-Detection/dataset
+train: infrared/train
+val: infrared/test
+
+# number of classes
+nc: 6
+
+# class names
+names: ['People', 'Car', 'Bus', 'Lamp', 'Motorcycle', 'Truck']
